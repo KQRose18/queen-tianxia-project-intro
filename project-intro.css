@@ -563,26 +563,26 @@ h3 {
   gap: 14px;
 }
 
-.winning-section {
+.execution-section {
   background:
     linear-gradient(135deg, #251312, #63222d 52%, #283b40);
   color: #fff8ef;
 }
 
-.winning-lead {
+.execution-lead {
   width: min(980px, 100%);
   margin-bottom: 30px;
   color: rgba(255, 248, 239, 0.78);
   font-size: 22px;
 }
 
-.winning-grid {
+.execution-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
 }
 
-.winning-grid article {
+.execution-grid article {
   min-height: 210px;
   padding: 24px;
   border: 1px solid rgba(255, 248, 239, 0.15);
@@ -590,14 +590,14 @@ h3 {
   box-shadow: 0 16px 44px rgba(21, 10, 8, 0.18);
 }
 
-.winning-grid strong {
+.execution-grid strong {
   display: block;
   margin-bottom: 10px;
   color: #ffd58e;
   font-size: 24px;
 }
 
-.winning-grid span {
+.execution-grid span {
   color: rgba(255, 248, 239, 0.74);
 }
 
@@ -630,7 +630,7 @@ h3 {
   .experience-grid,
   .systems,
   .roadmap,
-  .winning-grid,
+  .execution-grid,
   .asset-summary,
   .art-showcase,
   .strip-gallery,
@@ -667,7 +667,7 @@ h3 {
   .experience-grid,
   .systems,
   .roadmap,
-  .winning-grid,
+  .execution-grid,
   .momentum-stats,
   .asset-summary,
   .art-showcase,
@@ -682,7 +682,7 @@ h3 {
   }
 
   .momentum-copy,
-  .winning-lead {
+  .execution-lead {
     font-size: 18px;
   }
 
